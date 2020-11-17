@@ -1,0 +1,71 @@
+﻿body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1f2539;
+    direction: rtl;
+}
+
+.small-title {
+    font-size: 22px;
+}
+
+.login-textbox {
+    border: 2px solid white;
+    background-color: white;
+    height: 52px;
+    border-radius: 6px;
+}
+
+
+input::placeholder {
+    font-size: 22px;
+    opacity: 1;
+    background-color: transparent;
+}
+
+.login-checkbox {
+    width: 28px;
+    height: 28px;
+    vertical-align: text-bottom;
+}
+
+.login-submit-button {
+    background-color: #16C747;
+    color: white;
+    height: 52px;
+    font-size: 22px;
+}
+
+.btn-google {
+    background-color: #d94831 !important;
+    border-color: #d94831 !important;
+}
+
+.btn-send {
+    background-color: #01B9FF;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form-control{
+    display:inline !important;
+    width: 80%;
+}
+
+label{
+    display:block;
+}
+
+/*.validation-summary-errors{
+    display: none;
+}*/
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    body {
+    }
+}
